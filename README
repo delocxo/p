@@ -1,1 +1,15 @@
+# JS Game Engine
+
+This is a simple browser-based game engine implemented using HTML5 Canvas.
+It provides:
+
+- Keyboard input handling
+- Basic shapes (`Rectangle` and `Circle`)
+- Support for image textures via the `Sprite` class
+- An `Engine` class that updates and draws objects each frame
+
+## Running
+
+Open `index.html` in a modern browser. Use the arrow keys to move the
+red rectangle around. A circle and a sprite are also rendered as examples.
 
