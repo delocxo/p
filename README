@@ -1,1 +1,19 @@
+# JS Game Engine
+
+This is a simple browser-based game engine implemented using HTML5 Canvas.
+It now includes a few extra utilities reminiscent of a very light version of
+SFML. The engine provides:
+
+- Keyboard and mouse input handling
+- Basic shapes (`Rectangle` and `Circle`)
+- Simple UI elements (`Text` and `Button`)
+- Support for image textures via the `Sprite` class
+- Collision detection helpers
+- An `Engine` class that updates, checks collisions and draws objects each frame
+
+## Running
+
+Open `index.html` in a modern browser. Use the arrow keys to move the red
+rectangle around. If it touches the circle it turns blue. A button in the
+bottom-right resets the rectangle's position.
 
